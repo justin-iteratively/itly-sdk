@@ -29,12 +29,12 @@ jobs:
 
       - name: "Auth Success"
         if: ${{ fromJson(steps.permission_check.outputs.data).permission == 'admin' }}
-        run: "${{ github.actor }} is authorized. ${{ steps.permission_check.outputs.data }}"
+        run: "${{ github.actor }} is authorized."
 
       - name: "Auth Failed"
         if: ${{ failure() || fromJson(steps.permission_check.outputs.data).permission != 'admin' }}
         run: |
-          "Unable to authorize ${{ github.actor }}. ${{ steps.permission_check.outputs.data }}"
+          "Unable to authorize ${{ github.actor }}. You must have admin permission to run this workflow."
           exit 1
 
   release:
