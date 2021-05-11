@@ -281,10 +281,10 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
   integrity sha512-tsAQNx32a8CoFhjhijUIhI4kccIAgmGhy8LZMZgGfmXcpMbPRUqn5LWmgRttILi6yeGmBJd2xsPkFMs0PzgPCw==
 
-"@itly/sdk@^2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@itly/sdk/-/sdk-2.0.9.tgz#34d9d10e2422f692bf7d9ac8ee434455753d6ef8"
-  integrity sha512-vrPZmnbhDAB3/FOCB5sTT6Lv96dcnBFtgMkGI9VIefD6PcJVKbQUPG9cUSoJRsI1so6irxGqAL6Xcr9pevL8gA==
+"@itly/sdk@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@itly/sdk/-/sdk-2.2.2.tgz#c4a179b40804174426824eb9351764644c40c93a"
+  integrity sha512-LP5gMfpLrvA+EbXwSKS9BvE0KnleatFU42eIJq9uAzGcYiTMf2YWqe20mVMvCuzhLihMZqYiJqY63+pmsoM1yQ==
 
 "@jest/console@^26.0.1":
   version "26.0.1"
@@ -2358,9 +2358,9 @@ lodash.sortby@^4.7.0:
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
 lodash@^4.17.13, lodash@^4.17.15:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 make-dir@^3.0.0:
   version "3.1.0"
