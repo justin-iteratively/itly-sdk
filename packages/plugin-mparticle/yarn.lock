@@ -287,10 +287,10 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
   integrity sha512-tsAQNx32a8CoFhjhijUIhI4kccIAgmGhy8LZMZgGfmXcpMbPRUqn5LWmgRttILi6yeGmBJd2xsPkFMs0PzgPCw==
 
-"@itly/sdk@^2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@itly/sdk/-/sdk-2.0.9.tgz#34d9d10e2422f692bf7d9ac8ee434455753d6ef8"
-  integrity sha512-vrPZmnbhDAB3/FOCB5sTT6Lv96dcnBFtgMkGI9VIefD6PcJVKbQUPG9cUSoJRsI1so6irxGqAL6Xcr9pevL8gA==
+"@itly/sdk@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@itly/sdk/-/sdk-2.2.2.tgz#c4a179b40804174426824eb9351764644c40c93a"
+  integrity sha512-LP5gMfpLrvA+EbXwSKS9BvE0KnleatFU42eIJq9uAzGcYiTMf2YWqe20mVMvCuzhLihMZqYiJqY63+pmsoM1yQ==
 
 "@jest/console@^26.3.0":
   version "26.3.0"
@@ -1574,9 +1574,9 @@ has-values@^1.0.0:
     kind-of "^4.0.0"
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 html-encoding-sniffer@^2.0.1:
   version "2.0.1"
