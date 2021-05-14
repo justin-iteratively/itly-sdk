@@ -96,3 +96,11 @@ jobs:
             --no-git-tag-version \
             --no-push \
             --yes
+
+      - name: Release
+        if: ${{ github.event.inputs.dryRun == 'false'}}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          yarn lerna publish -m "chore(release): publish %s" --yes
