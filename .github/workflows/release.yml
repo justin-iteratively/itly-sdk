@@ -8,11 +8,9 @@ on:
         required: true
         default: "true"
       distTag:
-        description: "The dist-tag to publish (e.g. beta)"
-        required: false
-      exactVersion:
-        description: "Force an exact version for the release"
-        required: false
+        description: "The dist-tag to publish (e.g. latest, beta)"
+        required: true
+        default: "latest"
 
 jobs:
   authorize:
@@ -103,4 +101,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          yarn lerna publish -m "chore(release): publish %s" --yes
+          yarn lerna publish -m "chore(release): publish %s" \
+            --dist-tag ${{ github.event.inputs.distTag }} \
+            --yes
