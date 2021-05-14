@@ -80,3 +80,19 @@ jobs:
         run: yarn test
         env:
           CI: true
+
+      - name: Configure Git User
+        run: |
+          git config --global user.name iteratively-sdk-bot
+          git config --global user.email sdk@iterative.ly
+
+      - name: Release (Dry Run)
+        if: ${{ github.event.inputs.dryRun == 'true'}}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          yarn lerna version -m "chore(release): publish %s" \
+            --no-git-tag-version \
+            --no-push \
+            --yes
